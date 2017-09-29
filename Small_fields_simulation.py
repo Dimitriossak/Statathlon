@@ -13,9 +13,9 @@ def sim():
 
 
 total_points = []
-for i in range(1000000):  # 1000000 fores kanoume simulate to prwtathlima
+for i in range(1000000):  # number of season simulations
     season_scores = []
-    for j in range(7):  # 7 agwnes se small gipedo
+    for j in range(7):  # 7 matches on small fields
         season = sim()
         season_scores.append(season)
     total_points.append(sum(season_scores))
