@@ -1,4 +1,4 @@
-#Code created by Dimitrios Sakellaris for Statathlon | All rights reserved.
+#Code created by Dimitrios Sakellaris for Statathlon
 import random
 from statistics import mean
 
